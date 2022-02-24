@@ -3,17 +3,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "ClickGesture",
+    name: "Gestures",
     platforms: [
         .macOS(.v10_15), .iOS(.v13), .macCatalyst(.v13), .watchOS(.v6), .tvOS(.v13)
     ],
     products: [
         .library(
-            name: "ClickGesture",
-            targets: ["ClickGesture"]),
+            name: "Gestures",
+            targets: ["Gestures"]),
     ],
     targets: [
         .target(
-            name: "ClickGesture"),
+            name: "Gestures"),
     ]
 )
