@@ -14,7 +14,6 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "ClickGesture",
-            dependencies: []),
+            name: "ClickGesture"),
     ]
 )
