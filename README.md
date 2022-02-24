@@ -1,3 +1,1 @@
-# ClickGesture
-
-A description of this package.
+# SwiftUI ClickGesture
